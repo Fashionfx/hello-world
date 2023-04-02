@@ -1,0 +1,6 @@
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 1 # 修改为你的物体类别数
+names: ['Polyp'] # 修改为get_labels.py运行的结果

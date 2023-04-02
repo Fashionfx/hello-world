@@ -1,0 +1,6 @@
+train: H:\Repository\yolov5-master\yolov5-master\dataset\train\images
+val: H:\Repository\yolov5-master\yolov5-master\dataset\valid\images
+test: H:\Repository\yolov5-master\yolov5-master\dataset\test\images
+
+nc: 1 # 修改为你的物体类别数
+names: ['Polyp'] # 修改为get_labels.py运行的结果
